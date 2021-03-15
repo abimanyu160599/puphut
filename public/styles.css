@@ -1,0 +1,283 @@
+body {
+  text-align: center;
+}
+
+.top {
+  background: white;
+}
+
+.firstcontainer {
+  height: 100vh;
+  width: 100%;
+  background: black;
+}
+
+.textonebox {
+  background: white;
+  width: 109%;
+  height: 306px;
+  padding: 73px;
+  margin: 166px auto;
+  border-radius: 42px;
+}
+
+.textone {
+  font-family: 'Bangers', cursive;
+  font-size: 42px;
+}
+
+.piconebox {
+  background: white;
+  width: 254px;
+  padding: 18px;
+  margin: 165px;
+}
+
+.picone {
+  height: 272px;
+  width: 220px;
+}
+
+.secondcontainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url(dogdoodle.jpg);
+}
+
+.cardsblack {
+  background: black;
+  margin: 174px 72px 0 72px;
+  height: 236px;
+  padding-top: 18px;
+}
+
+.cards {
+  font-family: 'Bangers', cursive;
+  background: white;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.cardtext {
+  position: absolute;
+  margin: 26px 34px 5px 39px;
+  font-size: 30px;
+}
+
+.picshover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.picshover:hover {
+  opacity: 1;
+}
+
+.thirdcontainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url(jamie-street-s9Tf1eBDFqw-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.hello {
+  color: white;
+  margin: 95px auto;
+  font-size: 89px;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.hellotext {
+  color: white;
+  font-size: 31px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background: black;
+  position: relative;
+}
+
+.contacttext {
+  margin-top: 54px;
+  font-size: 39px;
+}
+
+.contactcard {
+  background: white;
+  width: 330px;
+  position: absolute;
+  left: 525px;
+  top: 182px;
+  border-radius: 30px;
+}
+
+.formbox {
+  width: 100px;
+  font-family: 'Bangers', cursive;
+  margin-left: 76px;
+  margin-bottom: 50px;
+}
+
+.contacttext {
+  font-family: 'Bangers', cursive;
+}
+
+input {
+  text-align: center;
+}
+
+.submitbtn {
+  margin-left: 61px;
+  margin-top: 17px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 11px;
+  border: 1px solid black;
+}
+
+.submitbtn:hover {
+  color: white;
+  background: black;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+.textonebox{
+  width: 100%;
+      padding: 40px;
+}
+
+.textone{
+  font-size: 54px;
+}
+
+.piconebox{
+  margin: 0 3px 4px 231px;
+}
+
+.cardsblack{
+  margin: 78px 72px 0 72px;
+}
+
+.hello{
+      margin: 52px auto;
+}
+
+.hellotext{
+  font-size: 47px;
+}
+
+.contactcard{
+  width: 504px;
+  left: 141px;
+}
+
+.contacttext{
+  font-size: 82px;
+}
+
+.inputbox{
+  width: 336px;
+font-size: 42px;
+}
+
+.submitbtn{
+  margin-left: 122px;
+    font-size: 39px;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.textonebox{
+  height: 329px;
+  width: 96%;
+  margin: 44px auto;
+  padding: 40px;
+}
+
+.textone{
+  font-size: 45px;
+}
+
+.piconebox{
+  margin: -1px -59px 9px 50px;
+}
+
+.cardsblack {
+  margin: 27px 43px 0 44px;
+}
+
+.cardtext {
+    font-size: 30px;
+    text-align: center;
+}
+
+.hello{
+  margin: 46px auto;
+  font-size: 42px;
+}
+
+.hellotext {
+    font-size: 32px;
+}
+
+.thirdcontainer {
+    height: 100vh;
+    width: 100%;
+    background-image: url(dogphn.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formbox{
+  margin-left: 39px;
+}
+
+.contactcard{
+  left: 24px;
+    top: 79px;
+    width: 327px;
+}
+
+.contacttext {
+    font-size: 55px;
+}
+
+.inputbox{
+      font-size: 23px;
+      width: 239%;
+}
+
+.submitbtn {
+    margin-left: 87px;
+    font-size: 30px;
+}
+
+}
