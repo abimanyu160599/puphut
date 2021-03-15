@@ -164,11 +164,13 @@ input {
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
 
 .textonebox{
   width: 100%;
-      padding: 40px;
+  padding: 40px;
+  margin: 16px auto;
+  height: 284px;
 }
 
 .textone{
@@ -179,30 +181,45 @@ input {
   margin: 0 3px 4px 231px;
 }
 
-.cardsblack{
-  margin: 78px 72px 0 72px;
+.cardsblack {
+    margin: 17px 222px 0 246px;
+    height: 190px;
+}
+
+.cards{
+  height: 155px;
+}
+
+.cardtext{
+  font-size: 26px;
+  text-align: center;
 }
 
 .hello{
       margin: 52px auto;
+      font-size: 73px;
 }
 
 .hellotext{
-  font-size: 47px;
+  font-size: 36px;
 }
 
-.contactcard{
-  width: 504px;
-  left: 141px;
+.contactcard {
+    width: 428px;
+    left: 28%;
+        top: 100px;
 }
 
 .contacttext{
-  font-size: 82px;
+  font-size: 50px;
 }
 
-.inputbox{
-  width: 336px;
-font-size: 42px;
+.inputbox {
+    width: 336px;
+    font-size: 26px;
+}
+.formbox{
+  margin-left: 49px;
 }
 
 .submitbtn{
@@ -215,22 +232,23 @@ font-size: 42px;
 @media screen and (max-width: 500px) {
 
 .textonebox{
-  height: 329px;
+  height: 70%;
   width: 96%;
   margin: 44px auto;
   padding: 40px;
 }
 
 .textone{
-  font-size: 45px;
+  font-size: 211%;
 }
 
-.piconebox{
-  margin: -1px -59px 9px 50px;
+.piconebox {
+    margin: -18px -59px 9px 56px;
+    height: 103%;
 }
 
 .cardsblack {
-  margin: 27px 43px 0 44px;
+  margin: 22px 43px 0 44px;
 }
 
 .cardtext {
@@ -239,12 +257,12 @@ font-size: 42px;
 }
 
 .hello{
-  margin: 46px auto;
-  font-size: 42px;
+  margin: 44px auto;
+  font-size: 195%;
 }
 
 .hellotext {
-    font-size: 32px;
+    font-size: 189%;
 }
 
 .thirdcontainer {
@@ -261,7 +279,7 @@ font-size: 42px;
 }
 
 .contactcard{
-  left: 24px;
+  left: 7%;
     top: 79px;
     width: 327px;
 }
